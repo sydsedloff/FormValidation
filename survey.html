@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Survey-Sydney Sedloff</title>
+        <script type="text/javascript" src="js/process_form.js"></script>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <h1>Are you an artist or a programmer?</h1>
+    <div class="sidenav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </div>
+    <div id="content">
+        <div class="outside">
+            <h2 class="title">Personal Information</h2>
+            <form id="myForm" class="grid-container">
+                <div class="firstName grid-item-left">
+                    <label for="firstName">First Name</label>
+                    <input id="firstName" type="text">
+                </div>
+                <div class="grid-item-right" id="hintFirstName"></div>
+                <div class="lastName grid-item-left">
+                    <label for="lastName">Last Name</label>
+                    <input id="lastName" type="text">
+                </div>
+                <div class="grid-item-right" id="hintLastName"></div>
+                <div class="phoneNumber grid-item-left">
+                    <labels for="phoneNumber">Phone Number</label>
+                    <input id="phoneNumber" type="text">
+                </div>
+                <div class="grid-item-right" id="hintPhone"></div>
+                <div class="emailAddress grid-item-left">
+                    <label for="emailAddress">Email Address</label>
+                    <input id="emailAddress" type="text">
+                </div>
+                <div class="grid-item-right" id="hintEmail"></div>
+                <div class="webAddress grid-item-left">
+                    <label for="webAddress">Website Address</label>
+                    <input id="webAddress" type="text">
+                </div>
+                <div class="grid-item-right" id="hintWeb"></div>
+            </form>
+        </div>
+        
+        <form class="survey" id="survey" name="myForm">
+            <h3 class="surveyTitle">Do you prefer CSS or JavaScript?</h3> <br>
+            <input type="radio" name="preferredLanguage" id="css" value="css">
+            <label for="css">CSS</label>
+            <input type="radio" name="preferredLanguage" id="javascript" value="javascript">
+            <label for="javascript">Javascript</label>
+        </form>
+        <form class="survey" id="survey">
+            <h3 class="surveyTitle">Do you prioritize design or functionality?</h3><br>
+            <input type="radio" id="design" name="priority" value="design">
+            <label for="design">Design</label>
+            <input type="radio" id="functionality" name="priority" value="functionality">
+            <label for="design">Functionality</label>
+        </form>
+        <div class="booton" id="booton">
+        <button id="submit" value="Submit" class="submit">Submit</button>
+        </div>  
+    </div>
+    <footer>Created by Sydney Sedloff</footer>
+</html>
+    
